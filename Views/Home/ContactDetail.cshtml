@@ -1,8 +1,9 @@
 <h1>@Model.GetName()</h1>
 
-<li><a href='/ContactList/@contact.GetId()'>@contact.GetName()</a></li>
-<li><a href='/ContactList/@contact.GetId()'>@contact.GetPhoneNumber()</a></li>
-<li><a href='/ContactList/@contact.GetId()'>@contact.GetAddress()</a></li>
+<li>@Model.GetName()</li>
+<li>@Model.GetPhoneNumber()</li>
+<li>@Model.GetAddress()</li>
 
-<a href='/contact/new'>Add another contact</a>
+
+<a href='/contact/create'>Add another contact</a>
 <a href='/ContactList'>View all contacts</a>
